@@ -18,19 +18,19 @@ Game Description - Basic Rules
 
 Features and Functions (and how they satisfy the coding requirements 1-5)
 
-0. Generation of random game sets or events
+1. Generation of random game sets or events
 >Use seed to randomly generate terrain, mapping of game 
 >Randomly place the enemy characters inside the terrain
 >Although the impact on the profile attributes depend on the character, there is room for restricted randomisation for the impact when the user lose/win one game
 >Randomisation inside mini-games
-1. Data structures for storing game status 
+2. Data structures for storing game status 
 >Each character has a list of three attributes: HP, Strength, Unique skill. They will all be stored under a structure named “Character”.
 >Character status (e.g. HP, strength, skills, etc. will be stored throughout the game).
 >Game state can also saved and loaded if quit in the middle
-2. Dynamic memory management
+3. Dynamic memory management
 >The memory (e.g. dynamic array space) of occupied by each user will be released after the completion of a game
 >User character will be stored in a dynamic variable which its value is only available after the user declares the character
-3. File input/output
+4. File input/output
 >The story content will be saved in a seperate text file, and loaded when the game starts (We might prepare more than one story line and the user gets to choose one if time allows)
-4. Program codes in multiple files
+5. Program codes in multiple files
 >Different minigames will have their own program file
