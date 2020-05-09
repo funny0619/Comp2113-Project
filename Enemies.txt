@@ -1,0 +1,55 @@
+Name: Little Demon
+HP: 150
+Strength: 150
+Dexeterity: 50
+Difficulty: 1
+Luck: 5
+Index: 0
+
+Name: Casino Dealer
+HP: 100
+Strength: 150
+Dexeterity: 150
+Difficulty: 1
+Luck: 15
+Index: 0
+
+Name: Tanky Bouncer
+HP: 200
+Strength: 150
+Dexeterity: 50
+Difficulty: 2
+Luck: 5
+Index: 1
+
+Name: Taunting Matador
+HP: 100
+Strength: 200
+Dexeterity: 400
+Difficulty: 3
+Luck: 5
+Index: 2
+
+Name: False Prophet
+HP: 150
+Strength: 150
+Dexeterity: 200
+Difficulty: 3
+Luck: 30
+Index: 3
+
+Name: Gluttony
+HP: 250
+Strength: 300
+Dexeterity: 300
+Difficulty: 4
+Luck: 10
+Index: 4
+
+Name: Greed
+HP: 200
+Strength: 200
+Dexeterity: 800
+Difficulty: 4
+Luck: 20
+Index: 5
