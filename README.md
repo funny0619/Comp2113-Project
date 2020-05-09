@@ -2,8 +2,8 @@ Team 166 (The Gambling Trail)
 
 Team Members
 
-0. Qi, Lerong (Ray)
-1. Baik, Seo Woon (Sunny)
+0. Qi, Lerong (Ray) UID:3035554672
+1. Baik, Seo Woon (Sunny) UID:3035557246
 
 Game Description - Basic Rules
 
@@ -44,26 +44,26 @@ Features and Functions (and how they satisfy the coding requirements 1-5)
 
 Use seed to randomly generate terrain, mapping of game 
 Randomly place the enemy characters inside the terrain
-Randomisation inside mini-games
+Randomisation inside mini-games. 
 
 2. Data structures for storing game status 
 
-Each character has a list of three attributes: HP, Strength, Unique skill. They will all be stored under a structure named “Character”.
-Character status (e.g. HP, strength, skills, etc. will be stored throughout the game).
+Each character has a list of attributes: HP, Strength, Dexterity, Luck, Index, Difficulty. They will all be stored under a structure named “Character”.
+Vector containers store difficulty of enemies, multitude of "Character" structures for avaialabe enemies.
+Arrays are used store information that needs to be selected or outputted.
 
 3. Dynamic memory management
 
-The memory (e.g. dynamic array space) of occupied by each user will be released after the completion of a game
-User character will be stored in a dynamic variable which its value is only available after the user declares the character
-Amount of User input during minigames is not known beforehand, so we can create dynamic variables to dynamically allocate storage of user input during runtime
+Dynamic arrays are used in the minigame, Memorizne Bananza, to accomodate unknown amount of user input.
+Vectors are used to store structs of Characters. The amount of Characters or enemies can be changed by adding new enemies or characters in the text file, no code needs to be changed. So it is dynamic
 
 4. File input/output
 
-The data of avaialbe players and avaialbe enemies are stored in seperate files called Enemies.txt and Players.txt
+The data of avaialbe players and avaialbe enemies are stored in seperate files called Enemies.txt and Players.txt. The function IntilializeStruct() reads in data from the file and stores in a vector of structs of type Character
 
 5. Program codes in multiple files
 
-Different minigames will have their own program file
+Different minigames will have their own program file. Combat systems are in different files. Availabe character actions are in seperate files. A Makefile is provided for correct complilation. 
 
 Compilation Instructions:
 go to the directory where all the source files are with terminal. 
