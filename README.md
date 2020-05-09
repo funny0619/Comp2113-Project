@@ -7,11 +7,12 @@ Team Members
 
 Game Description - Basic Rules
 
-0. The text-based game will take place in the form of RPG (Role-Play Game). At the main menu, the user is invited to write a seed for the game, and the map layout will be randomly generated based on the seed (Is this… possible?).
-1. Upon starting the game, the user will be asked to select a character (among the 3-5 characters prepared by the system). Each character has a profile containing different attributes (e.g. health points (HP), strength, a specific skill). Note that all skills are quantified numeric values.
-2. Once the user selects the character, all the remaining characters stored in the database immediately becomes the enemies of the user character. The user will be displayed a storyline of the game. In general, the user needs to take necessary steps to travel across the enemy realm and reach the destination.
-3. The user will choose the direction keys “W”, “A”, “S”, “D” to navigate in the game. Each time the user input the direction key, there is a random possibility that the user encounters one of the enemy characters.
-4. The user can choose to take challenges to develop new skills or level up in preparation to fight harder enemies. The challenges include various mini-games that the user has to play with the enemy. There may be multiple rounds and each time the user win / lose the game, the attributes of both the enemy and the user will be affected based on a specific algorithm.
+0. The text-based game will take place in the form of RPG (Role-Play Game). At the main menu, the user is invited to write a seed for the game, and the map layout will be randomly generated based on the seed.
+1. Upon starting the game, the user will be asked to select a character (among the 5 characters prepared by the system). Each character has a profile containing different attributes (health points (HP), strength, dexterity, and luck). Note that all skills are quantified numeric values.
+2. Once the user selects the character, the user will be asked to take the necessary steps to travel across the enemy realm and reach the destination. 
+3. The user will choose the direction keys “W”(up), “A”(left), “S”(down), “D”(right) to navigate in the game. On the map, "5" represents the location of the player and "1"s represent the path that the user is allowed to go. "0"s are walls so the player cannot go there.
+4. The enemies are represented by "9"s on the map. They are randomly spawned along the main path and the player has to defeat them. "8"s represent the minigames and they are spawned outside the main path. We designed four minigames (described in the following section) and one of them will be randomly generated once the player reaches 8. The player will get a reward regarding their character attributes if they win the minigames.
+5. The user has to play the minigames to develop new skills or level up in preparation to fight harder enemies. The challenges include various mini-games that the user has to play with the enemy. There may be multiple rounds and each time the user win / lose the game, the attributes of both the enemy and the user will be affected based on a specific algorithm.
 
 Included minigames:
 
