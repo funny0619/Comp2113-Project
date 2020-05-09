@@ -14,7 +14,6 @@ Game Description - Basic Rules
 4. The enemies are represented by "9"s on the map. They are randomly spawned along the main path and the player has to defeat them. "8"s represent the minigames and they are spawned outside the main path. We designed four minigames (described in the following section) and one of them will be randomly generated once the player reaches 8. The player will get a reward regarding their character attributes if they win the minigames.
 5. The user has to play the minigames to develop new skills or level up in preparation to fight harder enemies. The challenges include various mini-games that the user has to play with the enemy. There may be multiple rounds and each time the user win / lose the game, the attributes of both the enemy and the user will be affected based on a specific algorithm.
 6. Enemies in the path cannot be avoided, and the user has to fight them. If the user has not solved any challenges, it will be significantly harder to beat the enemies. Combat damage, combat sequence is determined by the attributes of the user and the enemy.
-
 7.Strength increases your attack damage. Dexterity increases flee and dodge chance. Luck increases your critical hit chance. Game ends anytime HP value becomes smaller than 0
 
 Included minigames:
