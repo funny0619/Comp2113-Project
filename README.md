@@ -66,6 +66,10 @@ The data of avaialbe players and avaialbe enemies are stored in seperate files c
 Different minigames will have their own program file. Combat systems are in different files. Availabe character actions are in seperate files. A Makefile is provided for correct complilation. 
 
 Compilation Instructions:
+Tested on academy server, works on X2go, but does not work properly on Putty. Please use X2go when testing on academy server for proper compilation. 
+
+Best when terminal window covers at least half the screen.
+
 go to the directory where all the source files are with terminal. 
 
 type the following into the terminal:
