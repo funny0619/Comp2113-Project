@@ -1,0 +1,39 @@
+Name: Fat Joe
+HP: 300
+Strength: 100
+Dexeterity: 100
+Difficulty: 0
+Luck: 5
+Index: 0
+
+Name: Sleazy Ann
+HP: 200
+Strength: 100
+Dexeterity: 400
+Difficulty: 0
+Luck: 10
+Index: 1
+
+Name: Lazy Susan
+HP: 200
+Strength: 250
+Dexeterity: 50
+Difficulty: 0
+Luck: 5
+Index: 2
+
+Name: Diligent Bob
+HP: 200
+Strength: 150
+Dexeterity: 100
+Difficulty: 0
+Luck: 10
+Index: 3
+
+Name: Lucky John
+HP: 250
+Strength: 100
+Dexeterity: 200
+Difficulty: 0
+Luck: 25
+Index: 4
