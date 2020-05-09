@@ -21,7 +21,7 @@ Game Description - Basic Rules
 
 6. Enemies in the path cannot be avoided, and the user has to fight them. If the user has not solved any challenges, it will be significantly harder to beat the enemies. Combat damage, combat sequence is determined by the attributes of the user and the enemy.
 
-7.Strength increases your attack damage. Dexterity increases flee and dodge chance. Luck increases your critical hit chance. Game ends anytime HP value becomes smaller than 0
+7. Strength increases your attack damage. Dexterity increases flee and dodge chance. Luck increases your critical hit chance. Game ends anytime HP value becomes smaller than 0
 
 Included minigames:
 
