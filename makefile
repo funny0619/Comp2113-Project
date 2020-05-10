@@ -1,9 +1,9 @@
 all: Gambling_Trail clean
 
-Gambling_Trail: map1.o combat.o slots.o Memorize_Bananza.o flip_the_ladder.o hi_lo.o
+Gambling_Trail: map1.cpp combat.o slots.o Memorize_Bananza.o flip_the_ladder.o hi_lo.o
 	g++ map1.cpp combat.o slots.o Memorize_Bananza.o flip_the_ladder.o hi_lo.o -o Gambling_Trail
 
-combat.o: combat.cpp character.cpp
+combat.o: combat.cpp character.cpp Enemies.txt Players.txt 
 	g++ -c combat.cpp
 
 slots.o: slots.cpp
