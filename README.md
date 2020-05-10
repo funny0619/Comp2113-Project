@@ -35,15 +35,15 @@ Flip the Ladder - Player can choose out of 3 themes: MTR stations, Tech Companie
 
 Any non-standard C/C++ libraries and what features/functions in your game are supported by these libraries:
 
-#include "<random>" - the library is used to utilize "std::uniform_int_distribution<int> distribution(1,100)". The uniform distribution, we found was a better to generate randomness for our combat system. 
+#include random - the library is used to utilize "std::uniform_int_distribution<int> distribution(1,100)". The uniform distribution, we found was a better to generate randomness for our combat system. 
 The functions Attack(),EnemyAttack(),Flee(),Dodge(), all use this library to calculate the chances of fleeing,dodging,critical hit chance.
 
-#include "<vector>" - this library is used to create Vector containers. 
+#include vector - this library is used to create Vector containers. 
 The functions SortEnemyTier(), InitializeStruct(), PrintCharacters(),CreateGameInstance(). We use a struct of type Character, defined by us, to store enemies and characters. All the data of enemies and characters are store in a vector container using the vector library. The functions takes data from a vector container of struct type Character
   
-#include "<unistd.h>" - this header defines miscellaneous symbolic constants and types, and declares miscellaneous functions.the library is used to utilize "sleep()". The functions Combat(),Slots(),Memorizing(), all use this library to pause the game loop for a certain amount of seconds to cause dramatic effect.
+#include unistd.h - this header defines miscellaneous symbolic constants and types, and declares miscellaneous functions.the library is used to utilize "sleep()". The functions Combat(),Slots(),Memorizing(), all use this library to pause the game loop for a certain amount of seconds to cause dramatic effect.
 
-#include "<iomanip>" - is a library that is used to manipulate the output. This library is utilized for "std::setw()". PrintMap() uses this to format the output of our "map" array  when outputted.
+#include iomanip - is a library that is used to manipulate the output. This library is utilized for "std::setw()". PrintMap() uses this to format the output of our "map" array  when outputted.
   
 Features and Functions (and how they satisfy the coding requirements 1-5)
 
